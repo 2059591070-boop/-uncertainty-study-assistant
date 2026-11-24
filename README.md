@@ -1,6 +1,6 @@
 # Uncertainty-Aware AI Study Assistant
 
-**README prose word count: 465**
+**README prose word count: 492**
 
 ## 1. Project Overview
 
@@ -80,11 +80,9 @@ These are developer functional tests, not participant study results.
 
 ## 8. AI Assistance
 
-ChatGPT assisted with prototype planning, HTML, CSS, JavaScript, debugging, literature checking, report drafting, the system diagram and interaction storyboards.
+I defined the project idea and coordinated its development using a main ChatGPT conversation and several task-specific conversations. ChatGPT generated the code, report, diagrams and storyboards, and assisted with project planning, literature checking and debugging. I deployed and tested the prototype locally and collected testing evidence.
 
-I transferred the generated code into Visual Studio Code, corrected the incomplete HTML, manually tested the interface, inspected interaction logs, captured screenshots and uploaded the project files and test evidence to GitHub.
-
-The report and diagrams use the source code and existing testing evidence. Some storyboard steps are reconstructed and labelled accordingly; they are not additional tests or participant observations.
+I transferred the generated code into Visual Studio Code, corrected the incomplete HTML, checked both uncertainty conditions and verification outcomes, inspected interaction logs, and uploaded the project files and screenshots to GitHub.
 
 ## 9. Testing Evidence
 
