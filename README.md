@@ -81,6 +81,15 @@ These are developer functional tests, not participant study results.
 - Formal user evaluation has not yet been conducted.
 
 ## 8. AI Assistance
+## 9. Testing Evidence
+
+- [First-person uncertainty](<屏幕截图 2026-11-25 031557.png>)
+- [Impersonal uncertainty](<屏幕截图 2026-11-25 031606.png>)
+- [Successful verification](<屏幕截图 2026-11-25 035146.png>)
+- [Failed verification](<屏幕截图 2026-11-25 035211.png>)
+- [Interaction log](<屏幕截图 2026-11-25 033034.png>)
+
+These screenshots document manual functional testing.
 
 ChatGPT assisted with prototype planning, HTML, CSS, JavaScript and debugging.
 
