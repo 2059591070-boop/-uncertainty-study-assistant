@@ -95,4 +95,3 @@ I transferred the generated code into Visual Studio Code, corrected an incomplet
 - [Interaction log](<屏幕截图 2026-11-25 033034.png>)
 
 These screenshots document manual functional testing.
-I transferred the generated code into Visual Studio Code, corrected an incomplete HTML file, manually tested the interface and inspected the interaction logs.
