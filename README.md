@@ -1,5 +1,7 @@
 # Uncertainty-Aware AI Study Assistant
 
+**README prose word count: 465**
+
 ## 1. Project Overview
 
 This research prototype explores how different expressions of AI uncertainty may influence students' verification behaviour when using academic AI assistants.
@@ -12,7 +14,7 @@ Version 1.0 implements:
 - Simulated AI responses.
 - First-person and impersonal uncertainty expressions.
 - Simulated verification success and failure.
-- Interaction logging in the browser console.
+- In-memory interaction logging displayed in the browser console.
 
 No live AI model or external verification service is connected.
 
@@ -31,31 +33,27 @@ No live AI model or external verification service is connected.
 4. Click Ask Question.
 5. Optionally click Verify Answer.
 
-No additional dependencies or API keys are required.
+For the interaction log, open the browser developer tools and select Console. No additional dependencies or API keys are required.
 
 ## 5. Development Record
 
 ### Stage 1: Interface development
 
-Created the HTML interface and styled it using CSS.
-
-An incomplete HTML file initially prevented the dropdown menus from appearing. The missing code was restored and the interface was tested again.
+An incomplete HTML file initially prevented the dropdown menus from appearing. I restored the missing code and checked the interface before adding CSS styling.
 
 ### Stage 2: Uncertainty expressions
 
-Implemented two uncertainty conditions while keeping the academic answer unchanged.
-
-Both conditions were manually tested using the overfitting question.
+Two fixed uncertainty messages were added while keeping the academic answer unchanged to support a controlled comparison. I manually tested both conditions using the overfitting question.
 
 ### Stage 3: Verification
 
-Implemented simulated verification success and failure, including guidance to consult lecture notes when verification fails.
+Simulated success and failure feedback was added to give students an optional checking action and guidance when reference information was unavailable. I tested both outcomes.
 
 ### Stage 4: Interaction logging
 
-Implemented logging of user actions, question identifiers, uncertainty conditions, verification outcomes and timestamps.
+Logging was added for possible future evaluation. It records actions, question identifiers, conditions, timestamps and verification outcomes. I inspected the browser console; the captured log contains 12 developer actions, including repeated clicks.
 
-The records were inspected in the browser console.
+The [initial prototype](https://github.com/2059591070-boop/-uncertainty-study-assistant/commit/e48fcfc8320ab3ef8f164536585104b74f49f40b) and [testing evidence](https://github.com/2059591070-boop/-uncertainty-study-assistant/commit/a30a0350677e7209482e381e52ddbd6fc07a104b) are recorded in GitHub.
 
 ## 6. Functional Testing
 
@@ -77,21 +75,23 @@ These are developer functional tests, not participant study results.
 - Academic questions and answers are predefined.
 - Verification results are simulated.
 - Interaction records are lost when the page is refreshed.
-- The prototype does not establish whether uncertainty wording improves appropriate trust.
+- The prototype does not establish whether uncertainty wording improves appropriate trust or learning.
 - Formal user evaluation has not yet been conducted.
 
 ## 8. AI Assistance
 
-ChatGPT assisted with prototype planning, HTML, CSS, JavaScript and debugging.
+ChatGPT assisted with prototype planning, HTML, CSS, JavaScript, debugging, literature checking, report drafting, the system diagram and interaction storyboards.
 
-I transferred the generated code into Visual Studio Code, corrected an incomplete HTML file, manually tested the interface and inspected the interaction logs.
+I transferred the generated code into Visual Studio Code, corrected the incomplete HTML, manually tested the interface, inspected interaction logs, captured screenshots and uploaded the project files and test evidence to GitHub.
+
+The report and diagrams use the source code and existing testing evidence. Some storyboard steps are reconstructed and labelled accordingly; they are not additional tests or participant observations.
 
 ## 9. Testing Evidence
 
 - [First-person uncertainty](<屏幕截图 2026-11-25 031557.png>)
 - [Impersonal uncertainty](<屏幕截图 2026-11-25 031606.png>)
-- [Successful verification](<屏幕截图 2026-11-25 035146.png>)
-- [Failed verification](<屏幕截图 2026-11-25 035211.png>)
+- [Successful verification](<屏幕截图 2026-11-25 035211.png>)
+- [Failed verification](<屏幕截图 2026-11-25 035146.png>)
 - [Interaction log](<屏幕截图 2026-11-25 033034.png>)
 
-These screenshots document manual functional testing.
+These screenshots document manual functional testing. The system diagram and storyboards are included in the accompanying A2 project report.
