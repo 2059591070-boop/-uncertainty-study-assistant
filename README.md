@@ -81,6 +81,11 @@ These are developer functional tests, not participant study results.
 - Formal user evaluation has not yet been conducted.
 
 ## 8. AI Assistance
+
+ChatGPT assisted with prototype planning, HTML, CSS, JavaScript and debugging.
+
+I transferred the generated code into Visual Studio Code, corrected an incomplete HTML file, manually tested the interface and inspected the interaction logs.
+
 ## 9. Testing Evidence
 
 - [First-person uncertainty](<屏幕截图 2026-11-25 031557.png>)
@@ -90,7 +95,4 @@ These are developer functional tests, not participant study results.
 - [Interaction log](<屏幕截图 2026-11-25 033034.png>)
 
 These screenshots document manual functional testing.
-
-ChatGPT assisted with prototype planning, HTML, CSS, JavaScript and debugging.
-
 I transferred the generated code into Visual Studio Code, corrected an incomplete HTML file, manually tested the interface and inspected the interaction logs.
