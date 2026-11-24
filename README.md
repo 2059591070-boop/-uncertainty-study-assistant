@@ -84,6 +84,8 @@ I defined the project idea and coordinated its development using a main ChatGPT 
 
 I transferred the generated code into Visual Studio Code, corrected the incomplete HTML, checked both uncertainty conditions and verification outcomes, inspected interaction logs, and uploaded the project files and screenshots to GitHub.
 
+The report and diagrams use the source code and existing testing evidence. Some storyboard steps are reconstructed and labelled accordingly; they are not additional tests or participant observations.
+
 ## 9. Testing Evidence
 
 - [First-person uncertainty](<屏幕截图 2026-11-25 031557.png>)
