@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncertainty-Aware AI Study Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>AI Study Assistant</h1>
+            <p>Uncertainty-aware academic assistance</p>
+            <p>Research prototype — simulated AI responses</p>
+        </header>
+
+        <section>
+            <label for="condition">Uncertainty expression</label>
+                        <select id="condition">
+                <option value="A">First-person</option>
+                <option value="B">Impersonal</option>
+            </select>
+        </section>
+
+        <section>
+            <label for="question">Select an academic question</label>
+            <select id="question">
+                <option value="q1">What is overfitting?</option>
+                <option value="q2">How does K-means clustering work?</option>
+                <option value="q3">What is gradient descent?</option>
+            </select>
+            <button id="ask-button">Ask Question</button>
+        </section>
+
+        <section id="answer-panel" hidden>
+            <h2>Simulated AI Answer</h2>
+            <p id="answer"></p>
+            <p id="uncertainty"></p>
+            <button id="verify-button">Verify Answer</button>
+            <div id="verification-result" role="status"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
